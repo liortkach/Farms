@@ -31,7 +31,7 @@ public:
     virtual int GetPurchasedNumProducts() const;
     virtual void SetPurchasedNumProducts(int num);
     virtual ~ChickenFarm();
-    void DeleteAnimals();
+    //void DeleteAnimals();
     virtual vector<Farm*> GetPotential();
     virtual vector<Animal*> GetAnimals();
     virtual void GrowAnimals();

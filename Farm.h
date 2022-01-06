@@ -34,7 +34,6 @@ public:
     virtual int GetPurchasedNumProducts() const=0;
     virtual void SetPurchasedNumProducts(int num)=0;
     virtual ~Farm();
-    virtual void DeleteAnimals()=0;
     virtual bool operator== (const Farm &farm);
     virtual bool operator< (const Farm &farm);
     virtual vector<Farm*> GetPotential()=0;

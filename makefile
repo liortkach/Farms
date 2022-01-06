@@ -1,5 +1,6 @@
 CPP_FARM:farmMarket.o Market.o CowFarm.o SheepFarm.o ChickenFarm.o Farm.o Sheep.o Cow.o Chicken.o Animal.o
 	g++ farmMarket.o Market.o CowFarm.o SheepFarm.o ChickenFarm.o Farm.o Sheep.o Cow.o Chicken.o Animal.o -o CPP_FARM
+
 farmMarket.o:farmMarket.cpp Farm.h Animal.h
 	g++ -c farmMarket.cpp
 

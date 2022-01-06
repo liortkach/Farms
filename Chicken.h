@@ -11,6 +11,7 @@ class Chicken : public Animal{
     int age;
     int animalPrice;
     int expireYear;
+
 public:
     Chicken();
     virtual int GetAge() const;

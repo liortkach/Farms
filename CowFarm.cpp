@@ -164,7 +164,7 @@ void CowFarm::AddMeSheep(Farm *chickenfarm) {
 
 CowFarm::~CowFarm(){}
 
-
+/*
 void CowFarm::DeleteAnimals() {
 
     for (auto it = this->animals.begin(); it != this->animals.end(); ++it)
@@ -173,7 +173,7 @@ void CowFarm::DeleteAnimals() {
     }
     this->animals.clear();
 }
-
+*/
 
 void CowFarm::BuyProducts(Farm &chickenfarm) {        // buy as much as you can
 
@@ -203,7 +203,5 @@ void CowFarm::SellProducts() {            // Sell to your potential buyers
 
     for (int i = 0; i < this->potentialFarms.size(); i++) {
         this->potentialFarms[i]->BuyProducts(*this);
-        if (this->GetMoney() < 1)
-            return;
     }
 }

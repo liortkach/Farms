@@ -160,11 +160,12 @@ void Market::printMarketFarms() {               // Print all the farms
 
 Market::~Market() {
 
+    /*
     for (int i=0; i<this->farms.size(); ++i)
     {
         this->farms[i]->DeleteAnimals();
     }
-
+    */
     for (auto it = this->farms.begin(); it != this->farms.end(); ++it)
     {
         delete *it;

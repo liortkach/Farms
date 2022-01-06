@@ -34,7 +34,7 @@ public:
     virtual void GrowAnimals();
 
     virtual ~CowFarm();
-    virtual void DeleteAnimals();
+    //virtual void DeleteAnimals();
 
     virtual void Update(Farm *farm);
 
